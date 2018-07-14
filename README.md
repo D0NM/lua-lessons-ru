@@ -1,2 +1,2 @@
 # lua-lessons-ru
-Исходные кексты видео курса "Уроки Lua для маленьких гопников"
+Исходные тексты видео курса "Уроки Lua для маленьких гопников" https://www.youtube.com/channel/UCrwjc6vNx-QSEe00QsU1-xg
