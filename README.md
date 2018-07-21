@@ -1,17 +1,24 @@
 # lua-lessons-ru
 Исходные тексты видео курса "Уроки Lua для маленьких гопников"
+
 https://www.youtube.com/channel/UCrwjc6vNx-QSEe00QsU1-xg
 
 Материалы для уроков:
 
 Библиотека anim8 от kikito https://github.com/kikito/anim8
+
 Библиотека easing tween от kikito https://github.com/kikito/tween.lua
+
 ООП для Lua от kikito https://github.com/kikito/middleclass
 
 Рекомендую:
+
 Бесплатный графический редактор Paint.Net https://www.getpaint.net/
+
 Бесплатный редактор спрайтов и анимации GraphicsGALE https://graphicsgale.com/us/
+
 Бесплатный редактор спрайтов и анимации https://www.aseprite.org/
+
 Бесплатная IDE с отладчиком для разработки https://studio.zerobrane.com/ (автору можно задонейтить деньги, он молодец)
 
 Фреймворк Love2D можно скачать здесь https://love2d.org/ там же вы найдете главный форум с примерами и ответами на вопросы.
