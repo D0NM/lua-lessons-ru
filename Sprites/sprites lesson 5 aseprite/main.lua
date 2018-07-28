@@ -1,24 +1,26 @@
--- Библиотека анимации peachy (анимация из редактора aseprite) by Josh Perry
+-- Библиотека 'peachy' by Josh Perry
+-- (парсинг и анимация из редактора спрайтов aseprite) 
 -- УРОК 5
 local peachy = require("peachy")
-
 function love.load()
-  love.window.setTitle("Peachy example")
-  spriteSheet = love.graphics.newImage("res/spr/astst.png")
-
-  jumpy = peachy.new("res/spr/astst.json", spriteSheet, "wiggle")
-
+	spriteSheetDude = love.graphics.newImage("res/spr/dude.png") 
+	man = peachy.new("res/spr/dude.json", spriteSheetDude, "stand") 
+	x = 150
+	man:onLoop (function()
+				x = x + 1
+			end)
 end
-
 function love.draw()
-  jumpy:draw(50, 80)
+	man:draw( x, 50, 0, 2, 2)
 end
-
 function love.update(dt)
-  jumpy:update(dt)
+	man:update(dt)
 end
-
 function love.keypressed(key)
-  if key == "space" then
-  end
+	if key == "space" then
+		man:setTag("run") 
+	end
+	if key == "1" then
+		man:togglePlay () 
+	end  
 end
