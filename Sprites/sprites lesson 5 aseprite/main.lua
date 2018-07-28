@@ -6,7 +6,7 @@ function love.load()
   love.window.setTitle("Peachy example")
   spriteSheet = love.graphics.newImage("res/spr/astst.png")
 
-  jumpy = peachy.new("res/spr/astst.json", spriteSheet, "Jumpy")
+  jumpy = peachy.new("res/spr/astst.json", spriteSheet, "wiggle")
 
 end
 
