@@ -19,6 +19,7 @@ function love.load()
 	print (contents)
 	
 	test2 = json.decode(contents)
+	
 	print(test2.name)
 	
 end
