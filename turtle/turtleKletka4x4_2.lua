@@ -1,22 +1,13 @@
-require "turtle" 
-show () 
-jump(-100)
-for qp = 1, 4 do
-	for fcb = 1, 4 do
-		move (50)
-		turn (90)
-		move (50)
-		turn (90)
-		move (50)
-		turn (90)
-		move (50)
-		turn (90)
-		jump (50)
-	end
-	turn (90)
-	move (50)
-	turn (90)
-	move (200)
-	turn (180)
+require "turtle"
+
+local g=colr (0,225,0)
+local blue=colr (0,0,225)
+local r=colr (225,0,0)
+local b=colr (0,0,0)
+
+pncl (g)
+for i= -225, 225 do
+		fill (b)
+	crcl (0,0,200,blue)
 end
 wait ()
