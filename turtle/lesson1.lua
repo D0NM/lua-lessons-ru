@@ -1,5 +1,5 @@
-require "turtle"
-
+require "ch"
+show()
 pnsz(3)
 
 local ребро = 150
