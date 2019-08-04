@@ -1,9 +1,11 @@
 # lua-lessons-ru
-Исходные тексты видео курса "Уроки Lua для маленьких гопников"
+Исходные тексты видео курса "Уроки Lua для всех"
 
 https://www.youtube.com/channel/UCrwjc6vNx-QSEe00QsU1-xg
 
 Материалы для уроков:
+
+Библиотека проверки столкновений bump от kikito https://github.com/kikito/bump.lua
 
 Библиотека anim8 от kikito https://github.com/kikito/anim8
 
