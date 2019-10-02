@@ -1,10 +1,10 @@
 -- Библиотека 'peachy' by Josh Perry
--- (парсинг и анимация из редактора спрайтов aseprite) 
+-- (парсинг и анимация из редактора спрайтов aseprite)
 -- УРОК 5
 local peachy = require("peachy")
 function love.load()
-	spriteSheetDude = love.graphics.newImage("res/spr/dude.png") 
-	man = peachy.new("res/spr/dude.json", spriteSheetDude, "stand") 
+	spriteSheetDude = love.graphics.newImage("res/spr/dude.png")
+	man = peachy.new("res/spr/dude.json", spriteSheetDude, "stand")
 	x = 150
 	man:onLoop (function()
 				x = x + 1
@@ -18,9 +18,9 @@ function love.update(dt)
 end
 function love.keypressed(key)
 	if key == "space" then
-		man:setTag("run") 
+		man:setTag("run")
 	end
 	if key == "1" then
-		man:togglePlay () 
-	end  
+		man:togglePlay ()
+	end
 end
