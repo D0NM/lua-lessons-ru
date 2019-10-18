@@ -1,5 +1,5 @@
 # lua-lessons-ru
-Исходные тексты видео курса "Уроки Roblox, Love2D и Lua"
+Исходные тексты видео курса "Уроки #Roblox, #Love2D и #Lua"
 
 https://www.youtube.com/channel/UCrwjc6vNx-QSEe00QsU1-xg
 
